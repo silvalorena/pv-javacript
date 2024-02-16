@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap')
+
 :root{
  --cor-de-fundo:#1E1E1E;
 --verde:#6FFF57;
@@ -9,4 +11,17 @@
 body{
     background-color:var(--cor-de-fundo);
     color: var(--branco);
+    font-family: Oswald;
+}
+
+.botao{
+    font-family:Oswald ;
+    background-color: var(--botao-inativo);
+    color:var(--branco) ;
+    font-size: 18px;
+    padding: 1em;
+}
+
+.titulo-principal{
+    font-size: 32px;
 }
